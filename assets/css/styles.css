@@ -1,0 +1,254 @@
+body {
+    margin: 0;
+}
+
+h1 {
+    font-size: 60px;
+    color: #ffffff;
+    font-family: 'Amatic SC', cursive;
+    margin: 0;
+}
+
+p {
+    font-family: 'Open Sans', cursive;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.st_banner {
+    height: 100px;
+    display: flex;
+    background: #fcf9f4;
+}
+
+.st_logo {
+    height: 100px;
+    width: 20vw;
+    border-right-style: solid;
+    border-color: #eae7e2;
+    display: flex;
+    text-align: center;
+}
+
+.st_nav {
+    height: 100px;
+    flex: 1;
+    border-right-style: solid;
+    border-color: #eae7e2;
+    display: flex;
+    text-align: center;
+}
+
+.st_donate {
+    height: 100px;
+    width: 20vw;
+    display: flex;
+    text-align: center;
+}
+
+.donate-button {
+    background-color: transparent;
+    height: 40px;
+    width: 150px;
+    margin: auto auto auto 42px;
+    border-color: #dad7d2;
+}
+
+.st_header {
+    height: 794px;
+    background: yellow;
+    clear: both;
+}
+
+
+.list-inline.header-nav {
+    margin: auto;
+    padding-left: 42px;
+    padding-right: 42px;
+    display: table;
+    width: 100%;
+    list-style: none;
+}
+
+.list-inline.header-nav li {
+    display: table-cell;
+    text-align: center;
+    color: #d8d6d5;
+}
+
+.logo {
+    height: 100%;
+    margin: auto 42px auto auto;
+}
+
+
+.section1_container {
+    padding-top: 300px;
+}
+
+.section1_button_group {
+    padding-top: 50px;
+}
+
+.section1-button_left {
+    background-color: transparent;
+    border-color: white;
+    color: white;
+    font-family: 'Amatic SC', cursive;
+    height: 60px;
+    width: 270px;
+    font-size: 24px;
+    display: inline-block;
+    margin: 0 30px 0 auto;
+    border-radius: 10px;
+}
+
+.section1-button_right {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-color: transparent;
+    color: white;
+    font-family: 'Amatic SC', cursive;
+    height: 60px;
+    width: 270px;
+    font-size: 24px;
+    display: inline-block;
+    margin: 0 0 0 auto;
+    border-radius: 10px;
+}
+
+
+.st_mission {
+    background-color: #fcf9f4;
+}
+
+.st_mission .container {
+    padding: 150px 300px 200px 312px;
+}
+
+.st_mission .container h1 {
+    color: #4d4e59;
+    font-size: 52px;
+}
+
+.st_mission .container p {
+    color: #636471;
+    font-size: 20px;
+    padding-top: 32px;
+    text-align: center;
+    padding-bottom: 32px;
+    margin: 0;
+}
+
+.st_mission .container button {
+    background-color: #ffcd62;
+    border-color: transparent;
+    color: #636471;
+    height: 60px;
+    width: 270px;
+    font-size: 24px;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+.st_cards {
+    height: 700px !important;
+    background-color: red;
+}
+
+.card_container {
+    padding-top: 170px;
+    padding-left: 312px;
+    padding-right: 300px;
+    color: #fcf9f4;
+    display: flex;
+}
+
+
+.avatar {
+    display: flex;
+}
+
+.avatar img {
+    height: 330px;
+    width: 330px;
+    border-radius: 50%;
+}
+
+
+.another-float {
+    flex: 1;
+}
+
+.st_cards h1 {
+    color: #fcf9f4;
+
+}
+
+.st_cards p {
+    color: #fcf9f4;
+    padding-bottom: 32px;
+    padding-top: 32px;
+    margin: 0;
+    font-size: 20px;
+
+}
+
+.common_button {
+    background-color: black;
+    border-color: transparent;
+    color: #fcf9f4;
+    height: 60px;
+    width: 270px;
+    font-size: 24px;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+.st_progress {
+    height: 840px;
+    background-color: #fcf9f4;
+}
+
+.st_progress h1 {
+    color: #909094;
+    font-size: 52px;
+}
+
+.st_progress .container {
+    padding: 170px 218px 0;
+}
+
+.card_group {
+    display: flex;
+    padding-top: 80px;
+}
+
+.square_card {
+    height: 350px;
+    width: 350px;
+    border: 3px solid #eeece7;
+
+
+}
+
+.square_card h1 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 72px;
+    color: #91d0b1;
+}
+
+.square_card p {
+    font-size: 16px;
+    color: #91d0b1;
+}
+
+.st_footer {
+    height: 100px;
+    background-color: #4d4e59;
+    color: #d4d2d0;
+    margin: 0;
+    padding: 0;
+}
